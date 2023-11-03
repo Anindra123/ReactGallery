@@ -2,8 +2,9 @@ export default function GalleryItem({ img, deleteImages, setDeletedImages }) {
   //callback function for selecting the images
   const handleSelect = (e) => {
     const id = e.currentTarget.id;
-    if (deleteImages.includes(id)) {
-      setDeletedImages(deleteImages.filter((item) => item !== id));
+
+    if (deleteImages.includes(parseInt(id))) {
+      setDeletedImages(deleteImages.filter((item) => item !== parseInt(id)));
     } else {
       setDeletedImages([...deleteImages, parseInt(id)]);
     }
