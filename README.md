@@ -13,7 +13,7 @@ Fully responsive grid style sortable gallery made in react. Users can drag and d
 To run the project on local development server clone the repository with the following command and then going into the cloned directory
 
 ```bash
-git clone some link
+git clone https://github.com/Anindra123/ReactGallery.git
 
 cd ReactGallery
 ```
