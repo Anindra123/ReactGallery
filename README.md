@@ -21,7 +21,7 @@ cd ReactGallery
 Then run the folllowing command and go to `http://localhost:5173` to see the website running on the development server
 
 ```bash
-npm run dev
+npm run
 ```
 
 # Dependencies
